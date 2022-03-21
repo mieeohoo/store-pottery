@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pottary Store</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="sp.css">
+</head>
+
+<body>
+  <!-- header================================================== -->
+  <header id="header">
+    <div class="header-container-top wrapper flex">
+      <!-- h1 -->
+      <h1><a href="#">Pottery Store</a></h1>
+      <!-- ＝・✕ボタン -->
+      <div class="toggle_btn">
+        <span class="btn-topline"></span>
+        <span class="btn-baseline"></span>
+      </div>
+    </div>
+    <!-- グローバルメニュー：ハンバーガー（はじめはhidden） -->
+    <nav id="globalnav">
+      <ul class="globalnav-menu">
+        <li class="item"><a href="products.html">PRODUCT</a></li>
+        <li class="item"><a href="about.html">ABOUT</a></li>
+        <li class="item"><a href="company.html">COMPANY</a></li>
+        <li class="item"><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+    <!-- 黒マスク -->
+    <div id="mask"></div>
+  </header>
+  <!-- main==================================================== -->
+  <main>
+    <div class="contents wrapper product-single-page">
+      <!-- （タイトル） -->
+      <h2 class="psp-h2 company-h2">Company</h2>
+      <!-- (コンテンツ) ---------------------------------->
+      <dl class="company-info">
+        <div class="company-info-list flex">
+          <dt>社名</dt>
+          <dd>株式会社　pottary Store</dd>
+        </div>
+        <div class="company-info-list flex">
+          <dt>住所</dt>
+          <dd>〒123-4567　大阪府内</dd>
+        </div>
+        <div class="company-info-list flex">
+          <dt>設立</dt>
+          <dd>✕✕✕✕年✕✕月</dd>
+        </div>
+        <div class="company-info-list flex">
+          <dt>資本金</dt>
+          <dd>✕✕万円</dd>
+        </div>
+        <div class="company-info-list flex">
+          <dt>従業員数</dt>
+          <dd>✕✕名</dd>
+        </div>
+        <div class="company-info-list flex">
+          <dt>事業内容</dt>
+          <dd>陶器の販売</dd>
+        </div>
+      </dl>
+      <!-- 地図の埋め込み -->
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104976.08269005227!2d135.456440838565!3d34.69250151472567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e4f0aae8bd15%3A0xdf7ae45a7bf4e7af!2z5aSn6Ziq5bqc5bqB!5e0!3m2!1sja!2sjp!4v1647863647957!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </main>
+  <!-- footer================================================== -->
+  <footer>
+    <div class="footer wrapper flex">
+      <!-- フッターメニュー -->
+      <nav>
+        <ul class="footer-nav flex">
+          <li class="fnav-item"><a href="">INSTAGRAM</a></li>
+          <li class="fnav-item"><a href="">TWITTER</a></li>
+          <li class="fnav-item"><a href="">FACEBOOK</a></li>
+        </ul>
+      </nav>
+      <!-- コピーライト -->
+      <p class="copyright">&copy; Pottary Store</p>
+    </div>
+  </footer>
+
+  <script src="jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
